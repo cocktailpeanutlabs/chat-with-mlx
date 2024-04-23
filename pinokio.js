@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "1.5",
   title: "chat-with-mlx",
-  description: "Chat with your data natively on Apple Silicon using MLX Framework. https://github.com/qnguyen3/chat-with-mlx",
+  description: "[Mac Only] Chat with your data natively on Apple Silicon using MLX Framework. https://github.com/qnguyen3/chat-with-mlx",
   icon: "icon.jpeg",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
